@@ -4,6 +4,5 @@
 
 class Magic8Ball {
 public:
-    std::string fortune(std::string question);
+    static std::string fortune(const std::string &question);
 };
-
