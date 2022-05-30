@@ -1,7 +1,8 @@
 #pragma once
+
 #include <vector>
-class ArrayAlgorithms
-{
+
+class ArrayAlgorithms {
 public:
-	int dominantIndex(std::vector<int>& nums);
+    static int dominantIndex(std::vector<int> &nums);
 };
